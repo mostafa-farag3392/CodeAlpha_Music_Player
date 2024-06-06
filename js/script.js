@@ -14,10 +14,10 @@ document.addEventListener('DOMContentLoaded', () => {
     let isRepeat = false;
 
     const songs = [
-        { title: 'Song 1', src: '../audio/audio 1.mpeg' },
-        { title: 'Song 2', src: '../audio/audio 2.mpeg' },
-        { title: 'Song 3', src: '../audio/audio 3.mpeg' },
-        { title: 'Song 3', src: '../audio/audio 4.mpeg' }
+        { title: 'Song 1', src: './audio/audio 1.mpeg' },
+        { title: 'Song 2', src: './audio/audio 2.mpeg' },
+        { title: 'Song 3', src: './audio/audio 3.mpeg' },
+        { title: 'Song 3', src: './audio/audio 4.mpeg' }
     ];
 
     function loadSong(index) {
